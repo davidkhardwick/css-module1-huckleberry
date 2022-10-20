@@ -7,6 +7,84 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 /* Add styles here! */
+
+header {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.intro-chunk {
+  font-size: 2rem;
+  color: hsl(0deg, 0%, 0%);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+p {
+  font-size: 1rem;
+  color: hsl(0deg, 0%, 0%);
+  width: 100%;
+
+}
+
+strong {
+  font-weight: bold;
+  color: hsl(160deg, 100%, 30%)
+}
+
+
+
+.indented-heading {
+  color: hsl(0deg, 0%, 0%);
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  z-index: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 12px;
+  margin-bottom: -80px;
+  margin-left: -12px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.max-width-wrapper {
+  max-width: 100%;
+
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 60%);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  padding-bottom: 48px;
+  margin-bottom: 0px;
+}
+
+.card p {
+  background-color: hsl(0deg, 0%, 100%);
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card p:first-of-type {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 0px;
+  padding-top: 64px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
